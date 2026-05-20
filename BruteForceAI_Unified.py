@@ -1,11 +1,11 @@
 # -*- coding: utf-8-sig -*-
 """
 BruteForceAI Unified - AI-Powered Login Form Analysis & Brute Force Attack Tool
-Author  : Mor David (www.mordavid.com)
+Author  : Beelocks
 License : Non-Commercial
-Version : 2.0.0 (Unified Edition)
+Version : 1.0.0 (Unified Edition)
 
-Changelog v2.0.0:
+Changelog v1.0.0:
   - Merged BruteForceCore.py + BruteForceAI.py into one self-contained file
   - Extracted _parse_llm_json() helper to eliminate duplicated JSON parsing
   - Consolidated all Colors attributes into disable() via setattr loop
@@ -37,8 +37,8 @@ from playwright.sync_api import sync_playwright
 # ---------------------------------------------------------------------------
 # Version / update check
 # ---------------------------------------------------------------------------
-CURRENT_VERSION = "2.0.0"
-VERSION_CHECK_URL = "https://mordavid.com/md_versions.yaml"
+CURRENT_VERSION = "1.0.0"
+VERSION_CHECK_URL = ""
 
 
 def check_for_updates(silent=False, force=False):
